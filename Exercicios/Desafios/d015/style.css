@@ -1,0 +1,61 @@
+.container {
+    height: 250px;
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    grid-template-rows: 80px 60px auto 50px;
+    gap: 2px;
+    align-items: normal;
+    justify-items: normal;
+    align-content: normal;
+    justify-content: normal;
+}
+
+.topo {
+    background-color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    
+}
+
+.menu {
+    background-color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    
+}
+
+.principal {
+    background-color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 3;    
+   
+}
+
+.secundario {
+    background-color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 4;
+      
+}
+
+.rodape {
+    background-color:  gray;
+    font-family: Arial, Helvetica, sans-serif;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    
+}
